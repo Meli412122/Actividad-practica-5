@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "ActividadPractica5.Controlador.TurnosControlador",
+    "Method": "Get",
+    "RelativePath": "api/TurnosControlador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fecha",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "hora",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cliente",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ActividadPractica5.Controlador.TurnosControlador",
+    "Method": "Post",
+    "RelativePath": "api/TurnosControlador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "turno",
+        "Type": "ActividadPractica5.Modelos.TTurno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ActividadPractica5.Controlador.TurnosControlador",
+    "Method": "Put",
+    "RelativePath": "api/TurnosControlador/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "turnoActualizado",
+        "Type": "ActividadPractica5.Modelos.TTurno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ActividadPractica5.Controlador.TurnosControlador",
+    "Method": "Delete",
+    "RelativePath": "api/TurnosControlador/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ActividadPractica5.Controlador.TurnosControlador",
+    "Method": "Put2",
+    "RelativePath": "api/TurnosControlador/DarBaja/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
